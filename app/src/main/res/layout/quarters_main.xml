@@ -53,8 +53,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rycyclercrew"
-        android:layout_width="238dp"
-        android:layout_height="750dp"
+        android:layout_width="412dp"
+        android:layout_height="688dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="100dp"
         android:layout_marginEnd="1dp"
@@ -63,44 +63,44 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.035" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="175dp"
-        android:layout_height="75dp"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
         android:backgroundTint="#14497e"
         android:onClick="rcruitGame"
         android:text="Recruit new members"
         android:textColor="#87d6fb"
-        android:textSize="17dp"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintHorizontal_bias="0.973"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823" />
+        app:layout_constraintVertical_bias="0.834" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="175dp"
-        android:layout_height="70dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:backgroundTint="#14497e"
         android:onClick="trainGamee"
         android:text="Simulator"
         android:textColor="#87d6fb"
-        android:textSize="27dp"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48000002" />
+        app:layout_constraintVertical_bias="0.48" />
 
     <Button
         android:id="@+id/ButtonMoveToMission"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="50dp"
         android:backgroundTint="#14497e"
         android:onClick="ButtonMoveToMission"
@@ -109,20 +109,20 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintHorizontal_bias="0.978"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.277" />
 
     <Button
         android:id="@+id/button6"
-        android:layout_width="175dp"
-        android:layout_height="78dp"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
         android:backgroundTint="#14497e"
         android:onClick="rmovecrew"
         android:text="Remove Crew Member"
         android:textColor="#87d6fb"
-        android:textSize="17dp"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/backgroundImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.972"
@@ -132,7 +132,7 @@
 
     <Button
         android:id="@+id/buttonMoveToSimulator"
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="50dp"
         android:backgroundTint="#14497e"
         android:text="Move Crew"
@@ -140,24 +140,24 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/backgroundImage"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568" />
+        app:layout_constraintVertical_bias="0.575" />
 
     <Button
         android:id="@+id/missionGame"
-        android:layout_width="175dp"
-        android:layout_height="75dp"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
         android:backgroundTint="#14497e"
         android:onClick="missionGame"
-        android:text="Mission Control"
+        android:text="Mission"
         android:textColor="#87d6fb"
-        android:textSize="20dp"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.975"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.175" />

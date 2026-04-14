@@ -82,10 +82,10 @@ public class CrewAdapter extends RecyclerView.Adapter<CrewAdapter.ViewHolder> {
 
         holder.crwnamee.setText(crew.getName());
         holder.crwtypee.setText(crew.getType());
-        String stats = "Skill: " + crew.getSkill() +
-                " | Resilience: " + crew.getResilience() +
-                " | Energy: " + crew.getEnergy() + "/" + crew.getMaxEnergy() +
-                " | XP: " + crew.getExperience() + "/100";
+        String stats = " | Skill: " + crew.getSkill() +
+                "\n | Resilience: " + crew.getResilience() +
+                "\n | Energy: " + crew.getEnergy() + "/" + crew.getMaxEnergy() +
+                "\n | XP: " + crew.getExperience() + "/100";
         holder.crwstatss.setText(stats);
         holder.poster.setImageResource(crew.getPosterResId(holder.itemView.getContext()));
         // Checkbox logic

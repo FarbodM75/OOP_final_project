@@ -61,8 +61,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerTraining"
-        android:layout_width="377dp"
-        android:layout_height="381dp"
+        android:layout_width="349dp"
+        android:layout_height="387dp"
         android:layout_marginTop="140dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

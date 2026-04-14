@@ -31,7 +31,7 @@
         android:layout_width="231dp"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:textStyle="bold" />
 
     <CheckBox
