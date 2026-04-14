@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/crew1Image"
-        android:layout_width="116dp"
-        android:layout_height="115dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
@@ -28,8 +28,8 @@
 
     <ImageView
         android:id="@+id/crew2Image"
-        android:layout_width="112dp"
-        android:layout_height="115dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.946"
@@ -40,8 +40,8 @@
 
     <ImageView
         android:id="@+id/crew3Image"
-        android:layout_width="116dp"
-        android:layout_height="115dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -49,6 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.009"
         tools:srcCompat="@tools:sample/avatars" />
+
 
     <ImageView
         android:id="@+id/threatImage"
@@ -61,14 +62,13 @@
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
+        app:layout_constraintVertical_bias="0.62"
         tools:srcCompat="@tools:sample/avatars" />
-
 
     <Button
         android:id="@+id/buttonAttack"
-        android:layout_width="102dp"
-        android:layout_height="64dp"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
         android:backgroundTint="#14497e"
         android:text="ATTACK"
         android:textColor="#87d6fb"
@@ -79,31 +79,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
+
     <Button
         android:id="@+id/buttonDefend"
-        android:layout_width="143dp"
-        android:layout_height="64dp"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
         android:backgroundTint="#14497e"
-        android:text="DEFEND (recover)"
+        android:text="RECOVER"
         android:textColor="#87d6fb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
-
     <Button
         android:id="@+id/buttonSpecial"
-        android:layout_width="146dp"
-        android:layout_height="64dp"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
         android:backgroundTint="#14497e"
-        android:text="SPECIAL (Attack Twice)"
+        android:text="SPECIAL"
         android:textColor="#87d6fb"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintHorizontal_bias="0.936"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
@@ -126,7 +126,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.296" />
 
     <TextView
         android:id="@+id/crew1Stats"
@@ -135,7 +135,7 @@
         android:layout_marginTop="5dp"
         android:text="Crew1 Stats"
         android:textColor="#FFFFFF"
-        android:textSize="16dp"
+        android:textSize="12dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/crew1Image"
         app:layout_constraintTop_toBottomOf="@+id/crew1Image" />
@@ -146,7 +146,7 @@
         android:layout_height="164dp"
         android:text="Crew2 Stats"
         android:textColor="#FFFFFF"
-        android:textSize="16dp"
+        android:textSize="12dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -161,7 +161,7 @@
         android:layout_height="166dp"
         android:text="Crew3 Stats"
         android:textColor="#FFFFFF"
-        android:textSize="16dp"
+        android:textSize="12dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -178,7 +178,7 @@
         android:layout_marginTop="4dp"
         android:text="Threat Stats"
         android:textColor="#FFFFFF"
-        android:textSize="25dp"
+        android:textSize="24dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/threatImage"
         app:layout_constraintTop_toBottomOf="@+id/threatImage" />

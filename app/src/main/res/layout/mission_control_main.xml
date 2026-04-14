@@ -27,7 +27,7 @@
         android:shadowRadius="3"
         android:text="Mission Control Room"
         android:textColor="#87d6fb"
-        android:textSize="40dp"
+        android:textSize="35dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         android:textColor="#87d6fb"
         app:layout_constraintBottom_toTopOf="@+id/recyclerMission"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
