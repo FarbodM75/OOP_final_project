@@ -21,7 +21,22 @@ public class MusicService extends Service {
         backgroundMusic.start();
 
         // This tells Android to keep this running until the app is closed
-        return START_STICKY;
+        return START_NOT_STICKY;
+    }
+    // to make sure the music completely stops when app closes
+    @Override
+    public void onTaskRemoved(Intent rootIntent) {
+        super.onTaskRemoved(rootIntent);
+
+        // Stop and release the music
+        if (backgroundMusic != null) {
+            backgroundMusic.stop();
+            backgroundMusic.release();
+            backgroundMusic = null;
+        }
+
+        // Force the service to completely shut down
+        stopSelf();
     }
 
     @Override
