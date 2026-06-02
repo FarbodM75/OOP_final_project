@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        // START YOUR MUSIC SERVICE HERE
+        // Music Starts
         Intent musicIntent = new Intent(this, MusicService.class);
         startService(musicIntent);
 

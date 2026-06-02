@@ -10,13 +10,12 @@ public class MusicService extends Service {
 
     @Override
     public IBinder onBind(Intent intent) {
-        return null; // We don't need this, but Android requires it
+        return null;
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         // Load the mp3 file and start playing
-        // (Make sure your file in the raw folder is named rain_audio.mp3)
         backgroundMusic = MediaPlayer.create(this, R.raw.rain_audio);
         backgroundMusic.setLooping(true);
         backgroundMusic.start();
